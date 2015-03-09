@@ -1,1 +1,19 @@
-This enables the Baybayin keyboard layout in Chrome OS under the Filipino language. (see chrome://settings/languages). For comments etc., please email Alex Ibrado <alex@ibrado.org>
+This enables the Baybayin keyboard layout in Chrome OS under the Filipino language.
+Based on https://github.com/google/extra-keyboards-for-chrome-os/tree/master/esperanto
+Fork is at https://github.com/ibrado/extra-keyboards-for-chrome-os/
+
+a) Go to chrome://settings/languages 
+or b) Chrome settings
+
+Show advanced settings
+Languages
+  Languages and input settings..
+
+then 
+    Add
+      Filipino 
+        [ x ] Baybayin
+      Done
+
+Cycle between keyboard layouts using Alt-Shift; the status bar (near clock/avatar) will
+indicate which one is active.
