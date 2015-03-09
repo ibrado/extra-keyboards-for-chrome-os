@@ -35,6 +35,6 @@ limitations under the License.
     }
   ],
   "icons": {
-    "256": "icon256.png"
+    "128": "icon.png"
   }
 }
