@@ -116,7 +116,7 @@ chrome.input.ime.onKeyEvent.addListener(
       updateAltGrState(keyData);
       updateShiftState(keyData);
                 
-      if (lut[keyData.code]) {
+      if (!keyData.ctrlKey && lut[keyData.code]) {
           var remappedKeyData = keyData;
           remappedKeyData.key = lut[keyData.code][altGrState][shiftState];
           remappedKeyData.code = lut[keyData.code].code;
